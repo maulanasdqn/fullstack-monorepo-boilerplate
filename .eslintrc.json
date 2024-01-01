@@ -23,8 +23,10 @@
     },
     {
       "files": ["*.ts", "*.tsx"],
-      "extends": ["plugin:@nx/typescript"],
-      "rules": {}
+      "extends": ["plugin:@nx/typescript", "@stylexjs"],
+      "rules": {
+        "@stylexjs/valid-styles": ["error"]
+      }
     },
     {
       "files": ["*.js", "*.jsx"],

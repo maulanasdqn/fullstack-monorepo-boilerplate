@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@fullstack-monorepo-boilerplate/style": ["libs/web/style/src/index.ts"],
+      "@fullstack-monorepo-boilerplate/style/server": [
+        "libs/web/style/src/server.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
