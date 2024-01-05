@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "web:build": "nx run web:build",
-    "web:dev": "nx run web:serve",
-    "web:start": "nx run web:serve --production",
+    "web:landing:build": "nx run web-landing:build",
+    "web:landing:dev": "nx run web-landing:serve",
+    "web:landing:start": "nx run web-landing:serve --production",
     "server:build": "nx run server:build",
     "server:dev": "nx run server:serve",
     "server:start": "nx run server:serve --production"
@@ -15,6 +15,8 @@
     "@expo/metro-config": "~0.10.7",
     "@stylexjs/stylex": "^0.4.1",
     "@swc/helpers": "~0.5.2",
+    "@trpc/client": "^10.45.0",
+    "@trpc/server": "^10.45.0",
     "axios": "^1.0.0",
     "expo": "49.0.16",
     "expo-splash-screen": "~0.20.5",
@@ -27,7 +29,8 @@
     "react-native-svg": "13.9.0",
     "react-native-svg-transformer": "1.0.0",
     "react-native-web": "~0.19.9",
-    "tslib": "^2.3.0"
+    "tslib": "^2.3.0",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@config-plugins/detox": "~6.0.0",
@@ -62,6 +65,7 @@
     "@types/react-dom": "18.2.14",
     "@typescript-eslint/eslint-plugin": "^6.9.1",
     "@typescript-eslint/parser": "^6.9.1",
+    "ajv-keywords": "^5.1.0",
     "babel-jest": "^29.4.1",
     "babel-preset-expo": "~9.5.2",
     "detox": "^20.11.1",
