@@ -15,6 +15,24 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@fullstack-monorepo-boilerplate/mobile-components-atoms": [
+        "libs/mobile/components/atoms/src/index.ts"
+      ],
+      "@fullstack-monorepo-boilerplate/mobile-components-molecules": [
+        "libs/mobile/components/molecules/src/index.ts"
+      ],
+      "@fullstack-monorepo-boilerplate/mobile-components-organisms": [
+        "libs/mobile/components/organisms/src/index.ts"
+      ],
+      "@fullstack-monorepo-boilerplate/mobile-components-templates": [
+        "libs/mobile/components/templates/src/index.ts"
+      ],
+      "@fullstack-monorepo-boilerplate/mobile-modules": [
+        "libs/mobile/modules/src/index.ts"
+      ],
+      "@fullstack-monorepo-boilerplate/mobile-providers": [
+        "libs/mobile/providers/src/index.ts"
+      ],
       "@fullstack-monorepo-boilerplate/server-trpc": [
         "libs/server/trpc/src/index.ts"
       ],
