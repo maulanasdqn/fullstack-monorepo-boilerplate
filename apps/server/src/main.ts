@@ -5,7 +5,7 @@
 
 import express from 'express';
 import * as trpcExpress from '@trpc/server/adapters/express';
-import { appRouter } from '@fullstack-monorepo-boilerplate/server-trpc';
+import { appRouter } from '@fmb/server-trpc';
 
 const app = express();
 

@@ -9,7 +9,8 @@
       "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
       "options": {
-        "outputPath": "dist/apps/web/backoffice"
+        "outputPath": "dist/apps/web/backoffice",
+        "postcssConfig": "apps/backoffice/postcss.config.js"
       },
       "configurations": {
         "development": {

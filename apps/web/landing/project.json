@@ -9,7 +9,8 @@
       "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
       "options": {
-        "outputPath": "dist/apps/web/landing"
+        "outputPath": "dist/apps/web/landing",
+        "postcssConfig": "apps/web/landing/postcss.config.js"
       },
       "configurations": {
         "development": {

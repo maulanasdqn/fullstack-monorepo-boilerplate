@@ -15,63 +15,47 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@fullstack-monorepo-boilerplate/mobile-components-atoms": [
+      "@fmb/mobile-components-atoms": [
         "libs/mobile/components/atoms/src/index.ts"
       ],
-      "@fullstack-monorepo-boilerplate/mobile-components-molecules": [
+      "@fmb/mobile-components-molecules": [
         "libs/mobile/components/molecules/src/index.ts"
       ],
-      "@fullstack-monorepo-boilerplate/mobile-components-organisms": [
+      "@fmb/mobile-components-organisms": [
         "libs/mobile/components/organisms/src/index.ts"
       ],
-      "@fullstack-monorepo-boilerplate/mobile-components-templates": [
+      "@fmb/mobile-components-templates": [
         "libs/mobile/components/templates/src/index.ts"
       ],
-      "@fullstack-monorepo-boilerplate/mobile-modules": [
-        "libs/mobile/modules/src/index.ts"
-      ],
-      "@fullstack-monorepo-boilerplate/mobile-providers": [
-        "libs/mobile/providers/src/index.ts"
-      ],
-      "@fullstack-monorepo-boilerplate/server-trpc": [
-        "libs/server/trpc/src/index.ts"
-      ],
-      "@fullstack-monorepo-boilerplate/web-components-atoms": [
-        "libs/web/components/atoms/src/index.ts"
-      ],
-      "@fullstack-monorepo-boilerplate/web-components-atoms/server": [
+      "@fmb/mobile-modules": ["libs/mobile/modules/src/index.ts"],
+      "@fmb/mobile-providers": ["libs/mobile/providers/src/index.ts"],
+      "@fmb/server-trpc": ["libs/server/trpc/src/index.ts"],
+      "@fmb/web-components-atoms": ["libs/web/components/atoms/src/index.ts"],
+      "@fmb/web-components-atoms/server": [
         "libs/web/components/atoms/src/server.ts"
       ],
-      "@fullstack-monorepo-boilerplate/web-components-molecules": [
+      "@fmb/web-components-molecules": [
         "libs/web/components/molecules/src/index.ts"
       ],
-      "@fullstack-monorepo-boilerplate/web-components-molecules/server": [
+      "@fmb/web-components-molecules/server": [
         "libs/web/components/molecules/src/server.ts"
       ],
-      "@fullstack-monorepo-boilerplate/web-components-organisms": [
+      "@fmb/web-components-organisms": [
         "libs/web/components/organisms/src/index.ts"
       ],
-      "@fullstack-monorepo-boilerplate/web-components-organisms/server": [
+      "@fmb/web-components-organisms/server": [
         "libs/web/components/organisms/src/server.ts"
       ],
-      "@fullstack-monorepo-boilerplate/web-components-templates": [
+      "@fmb/web-components-templates": [
         "libs/web/components/templates/src/index.ts"
       ],
-      "@fullstack-monorepo-boilerplate/web-components-templates/server": [
+      "@fmb/web-components-templates/server": [
         "libs/web/components/templates/src/server.ts"
       ],
-      "@fullstack-monorepo-boilerplate/web-modules": [
-        "libs/web/modules/src/index.ts"
-      ],
-      "@fullstack-monorepo-boilerplate/web-modules/server": [
-        "libs/web/modules/src/server.ts"
-      ],
-      "@fullstack-monorepo-boilerplate/web-providers": [
-        "libs/web/providers/src/index.ts"
-      ],
-      "@fullstack-monorepo-boilerplate/web-providers/server": [
-        "libs/web/providers/src/server.ts"
-      ]
+      "@fmb/web-modules": ["libs/web/modules/src/index.ts"],
+      "@fmb/web-modules/server": ["libs/web/modules/src/server.ts"],
+      "@fmb/web-providers": ["libs/web/providers/src/index.ts"],
+      "@fmb/web-providers/server": ["libs/web/providers/src/server.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
