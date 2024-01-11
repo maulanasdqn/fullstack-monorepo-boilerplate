@@ -6,6 +6,11 @@
     "web:landing:build": "nx run web-landing:build",
     "web:landing:dev": "nx run web-landing:serve",
     "web:landing:start": "nx run web-landing:serve --production",
+    "web:backoffice:dev": "nx run web-backoffice:serve",
+    "web:backoffice:build": "nx run web-backoffice:build",
+    "web:backoffice:start": "nx run web-backoffice:serve --production",
+    "mobile:client:build": "nx run mobile-client:build",
+    "mobile:client:dev": "nx run-android mobile-client",
     "server:build": "nx run server:build",
     "server:dev": "nx run server:serve",
     "server:start": "nx run server:serve --production"

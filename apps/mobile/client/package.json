@@ -9,10 +9,18 @@
     "react-native": "*",
     "expo": "*",
     "react-native-svg": "*",
-    "react-native-web": "*"
+    "react-native-web": "*",
+    "expo-splash-screen": "~0.20.5",
+    "expo-status-bar": "~1.6.0",
+    "react": "18.2.0"
   },
   "scripts": {
     "eas-build-pre-install": "cd ../../../ && node tools/scripts/eas-build-pre-install.mjs . apps/mobile/client && cp package-lock.json apps/mobile/client",
-    "eas-build-post-install": "cd ../../../ && node tools/scripts/eas-build-post-install.mjs . apps/mobile/client"
+    "eas-build-post-install": "cd ../../../ && node tools/scripts/eas-build-post-install.mjs . apps/mobile/client",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
   }
 }
